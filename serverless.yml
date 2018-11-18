@@ -126,7 +126,7 @@ resources:
     mySubscription:
       Type: AWS::SNS::Subscription
       Properties:
-        Endpoint: theburningmonk@gmail.com
+        Endpoint: <enter your email here>
         Protocol: email
         TopicArn: 
           Ref: restaurantNotificationTopic            
